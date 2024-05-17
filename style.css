@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Poetsen One", sans-serif;
+    padding: 0;
+    margin: 0;}
+
+    a {
+        font-size: 40px;
+        color: rgba(71, 49, 8, 0.704);
+        text-decoration: none;
+    }
+
+    body {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.314), white),
+            url(img/img2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .cv {
+        position: absolute;
+        margin: 111px auto;
+        top: -90px;
+        left: 250px;
+        padding: 200px;
+    }
+
+    h1 {
+        font-size: 100px;
+        color: #a13434fb;
+        border: 100px;
+
+    }
+
+    p {
+        font-size: 20px;
+        margin: 35px 0  ;
+        color: #a1343491;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .social {
+        width: 50px;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+
+    .social img {
+        display: block;
+        width: 50px;
+        margin: 0 auto 20px;
+        cursor: pointer;
+    }
+
+    /* start icon */
+    .icone{
+        position: absolute;
+        
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50px;
+        gap: 30px 0;
+    }
+    .icone a {
+   
+        width: 35px;
+        height: 35px;
+    }
+    /* end icon */
+
+  @media  (max-width:1300px) {
+
+    .cv{
+        position:none ;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 182px  40px 0 ;
+        display: grid;
+        place-items: center;
+        
+    }
+    p{
+margin: 0;
+text-align: center;
+margin-bottom: 30px;
+padding: 0 32px;
+    }
+
+    h1{
+        font-size: 63px;
+        margin-bottom: 30px;
+    }
+  }
+        
+  @media  (max-width:500px) {
+    .cv{
+
+        margin: 182px  10px 0 ;
+
+        
+    }
+    p{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 77px;
+        padding: 0;
+            }
+        
+            h1{
+                font-size: 43px;
+                margin-bottom: 47px;
+            }
+
+        
+.icone {
+    position: absolute;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: ROW;
+    width: 100%;
+    gap: 0 30PX;
+    bottom: 133px;
+}
+  }
